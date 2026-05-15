@@ -105,11 +105,37 @@ class Test
         //     Console.WriteLine("The number is zero.");
         // }
 
+        // leap year
 
+        // int year;
+        // Console.Write("Enter a year: ");
+        // year=Convert.ToInt32(Console.ReadLine());
+        // Console.WriteLine((year%400==0 || (year%4==0 && year%100!=0))?$"{year} is a Leap Year":$"{year} is Not a Leap Year");
 
+        // check vowel or consonent
 
-
-
+        Console.Write("Enter a single charecter : ");
+        char input = Convert.ToChar(Console.ReadLine());
+        switch (char.ToLower(input))
+        {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                Console.WriteLine($"{input} is a vowel");
+                break;
+            default:
+                if (char.IsLetter(input))
+                {
+                    Console.WriteLine($"{input} is a consonent");
+                }
+                else
+                {
+                    Console.WriteLine($"{input} is not a charecter!");
+                }
+                break;
+        }
 
     }
 }
