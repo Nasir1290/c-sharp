@@ -56,29 +56,47 @@ class Test
 
 
     // How to take input from user and convert it.
-     string? name;
-     int age;
-     double gpa;
-     bool isRegistered;
+    //  string? name;
+    //  int age;
+    //  double gpa;
+    //  bool isRegistered;
 
-     Console.Write("Enter your name: ");
-     name=Console.ReadLine();
+    //  Console.Write("Enter your name: ");
+    //  name=Console.ReadLine();
 
-     Console.Write("Enter your age: ");
-     age=Convert.ToInt32(Console.ReadLine());
+    //  Console.Write("Enter your age: ");
+    //  age=Convert.ToInt32(Console.ReadLine());
 
-     Console.Write("Enter you GPA: ");
-     gpa=Convert.ToDouble(Console.ReadLine());
+    //  Console.Write("Enter you GPA: ");
+    //  gpa=Convert.ToDouble(Console.ReadLine());
 
-     Console.Write("Are you registered? (true/false): ");
-     isRegistered=Convert.ToBoolean(Console.ReadLine());
-     if(isRegistered!=true || isRegistered != false)
-        {
-         Console.Write("Invalid input for registration status. Please enter 'true' or 'false'.");
-         isRegistered=Convert.ToBoolean(Console.ReadLine()); 
-        }
+    //  Console.Write("Are you registered? (true/false): ");
+    //  isRegistered=Convert.ToBoolean(Console.ReadLine());
 
-     Console.WriteLine($"Hey {name}, you are {age} years old. Your GPA is {gpa} and your registration status is {isRegistered}.");
+    //  Console.WriteLine($"Hey {name}, you are {age} years old. Your GPA is {gpa} and your registration status is {isRegistered}.");
+    // Console.WriteLine("Hello World"+ " Welcome to me to c# language");
+
+
+    // Farenheit to Celsius
+    // double fahrenheit,celcius;
+    // Console.Write("Enter temperature in fahrenheit: ");
+    // fahrenheit=Convert.ToDouble(Console.ReadLine());
+    // celcius=(fahrenheit-32)*5/9;
+    // Console.WriteLine($"Temperature in celcius is: {celcius:F2}");
+
+    // ^ operator
+    int result = 15 ^ 12;
+    Console.WriteLine($"Result of 15 ^ 12 is: {result}");
+
+
+
+
+
+
+
+
+
+
 
     }
 }
