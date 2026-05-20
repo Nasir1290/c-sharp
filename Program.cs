@@ -139,16 +139,25 @@ class Test
 
 
         // short hand switch statement
-        int num=4;
+        // int num=4;
 
-        string message= num switch
+        // string message= num switch
+        // {
+        //    1=>"One",
+        //    2=>"Two",
+        //    3=>"Three",
+        //    _=>"Number is not between 1 and 3" 
+        // };
+
+        object num=4;
+        string message = num switch
         {
-           1=>"One",
-           2=>"Two",
-           3=>"Three",
-           _=>"Number is not between 1 and 3" 
+          int=>"Int",
+          double=>"Double",
+          _=>"Other type",  
         };
 
+        Console.WriteLine(message);
         Console.WriteLine(message);
 
     }
