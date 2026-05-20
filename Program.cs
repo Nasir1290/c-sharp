@@ -137,5 +137,19 @@ class Test
         //         break;
         // }
 
+
+        // short hand switch statement
+        int num=4;
+
+        string message= num switch
+        {
+           1=>"One",
+           2=>"Two",
+           3=>"Three",
+           _=>"Number is not between 1 and 3" 
+        };
+
+        Console.WriteLine(message);
+
     }
 }
