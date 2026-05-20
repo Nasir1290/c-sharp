@@ -114,28 +114,28 @@ class Test
 
         // check vowel or consonent
 
-        Console.Write("Enter a single charecter : ");
-        char input = Convert.ToChar(Console.ReadLine());
-        switch (char.ToLower(input))
-        {
-            case 'a':
-            case 'e':
-            case 'i':
-            case 'o':
-            case 'u':
-                Console.WriteLine($"{input} is a vowel");
-                break;
-            default:
-                if (char.IsLetter(input))
-                {
-                    Console.WriteLine($"{input} is a consonent");
-                }
-                else
-                {
-                    Console.WriteLine($"{input} is not a charecter!");
-                }
-                break;
-        }
+        // Console.Write("Enter a single charecter : ");
+        // char input = Convert.ToChar(Console.ReadLine());
+        // switch (char.ToLower(input))
+        // {
+        //     case 'a':
+        //     case 'e':
+        //     case 'i':
+        //     case 'o':
+        //     case 'u':
+        //         Console.WriteLine($"{input} is a vowel");
+        //         break;
+        //     default:
+        //         if (char.IsLetter(input))
+        //         {
+        //             Console.WriteLine($"{input} is a consonent");
+        //         }
+        //         else
+        //         {
+        //             Console.WriteLine($"{input} is not a charecter!");
+        //         }
+        //         break;
+        // }
 
     }
 }
